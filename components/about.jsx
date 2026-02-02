@@ -10,7 +10,7 @@ const About = () => {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
+        transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
       >
 	
 				<h2 className="font-inria font-bold text-3xl text-gray-800 my-2 border-b-3 w-70 text-center p-2 border-gray-400">About</h2>
