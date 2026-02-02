@@ -5,7 +5,7 @@ const Skills = () => {
 		<>
 			<div className="flex flex-col m-auto p-4 items-center" id="skills">
 				<h2 className="font-inria font-bold text-3xl text-gray-800 my-2 border-b-3 border-gray-400 p-2 w-70 text-center">Technical Skills</h2>
-				<p className="font-inria leading-10 text-gray-800 text-lg font-light text-center">Skills acquired and the degree of effectiveness with which I can apply them</p>
+				<p className="font-inria leading-10 text-gray-800 text-base md:text-lg font-light text-center">Skills acquired and the degree of effectiveness with which I can apply them</p>
 
 				<div className="w-full gap-y-7 md:gap-x-4 justify-center py-3 grid grid-cols-1 md:grid-cols-2 md:gap-y-4 md:w-9/12">
 					<div className="">

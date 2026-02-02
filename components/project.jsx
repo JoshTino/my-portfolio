@@ -6,7 +6,7 @@ const Project = () => {
 		<>
 			<div className="flex flex-col items-center m-auto mb-5 p-4" id="projects">
 				<h2 className="font-inria font-bold text-3xl text-gray-800 my-2 border-b-3 border-gray-400 p-2 w-70 text-center">Projects I've Done</h2>
-				<p className="font-inria leading-10 text-gray-800 text-lg font-light">Here is a glimpse of some exciting projects I’ve done over the years.</p>
+				<p className="font-inria leading-10 text-gray-800 text-base md:text-lg font-light">Here is a glimpse of some exciting projects I’ve done over the years.</p>
 				<div className="flex flex-col justify-between gap-y-15 my-3 md:w-9/12 md:flex-row md:justify-around md:gap-x-3">
 					<div className="flex flex-col gap-y-3 w-12/12">
 						<h3 className="font-inria text-gray-800 text-lg font-bold">#1 Online Marketplace Web-app</h3>
@@ -15,7 +15,7 @@ const Project = () => {
 							<img src="/images/Screenshot_20231215-055319.png"  className="w-2/7"/>
 							<img src="/images/Screenshot_20231215-055254.png"  className="w-2/7"/>
 						</div>
-						<p className="font-inria text-gray-800 text-sm leading-8 text-lg font-light">Built Maigida, a functional online marketplace with secure authentication, product management, and a responsive UI using PHP (MVC) and JavaScript.</p>
+						<p className="font-inria text-gray-800 text-base leading-8 font-light">Built Maigida, a functional online marketplace with secure authentication, product management, and a responsive UI using PHP (MVC) and JavaScript.</p>
 						<div className="flex gap-x-4"><span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">PHP(MVC)</span> <span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">JavaScript</span> <span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">MySql</span> <span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">Apache</span></div>
 						<a href="" className="w-fit bg-black text-white font-inria rounded-lg py-2 pl-2 pr-5"><Github className="inline" /> Github</a>
 					</div>
@@ -26,7 +26,7 @@ const Project = () => {
 							<img src="/images/Screenshot_20250319-162321.png" className="w-2/7"/>
 							<img src="/images/Screenshot_20250319-092012.png" className="w-2/7"/>
 						</div>
-						<p className="font-inria text-gray-800 text-sm leading-8 text-lg font-light">Created TarabaExpress, a PHP (MVC) news platform with real-time updates, SEO optimization, and a responsive, easy-to-manage admin panel.</p>
+						<p className="font-inria text-gray-800 text-base leading-8 font-light">Created TarabaExpress, a PHP (MVC) news platform with real-time updates, SEO optimization, and a responsive, easy-to-manage admin panel.</p>
 						<div className="flex gap-x-4"><span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">PHP(MVC)</span> <span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">JavaScript</span> <span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">MySql</span> <span className="font-inria text-xs bg-gray-200 py-1 px-2 font-bold rounded-lg">Apache</span></div>
 						<a href="https://github.com/JoshTino/tarabaexpress" className="w-fit bg-black text-white font-inria rounded-lg py-2 pl-2 pr-5"><Github className="inline" /> Github</a>
 					</div>
