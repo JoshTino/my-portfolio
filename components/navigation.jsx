@@ -3,8 +3,8 @@ import {Menu, X} from "lucide-react";
 const Navigation = ( {open, onOpen, onClose} ) => {
 	return(
 		<>
-			<nav className="flex justify-between p-4 m-auto md:px-9">
-				<div><h3 className="font-donegal text-4xl tracking-wider lg:text-5xl">j<span className="text-customred">o</span>sh<span className="text-customred">D</span>an</h3></div>
+			<nav className="flex justify-between p-4 m-auto md:px-9 bg-white shadow-sm fixed top-0 left-0 right-0 z-1">
+				<div><h1 className="font-donegal text-4xl tracking-wider lg:text-5xl">j<span className="text-customred">o</span>sh<span className="text-customred">D</span>an</h1></div>
 				<div className="md:hidden">
 					{!open ? (
 							<button onClick={onOpen}>
