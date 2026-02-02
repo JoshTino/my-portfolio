@@ -9,7 +9,7 @@ const About = () => {
         id="about"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ }}
         transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
       >
 	
