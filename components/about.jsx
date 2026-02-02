@@ -19,7 +19,7 @@ const About = () => {
 					With a Bachelor's degree in Computer Science, I have been crafting clean and efficient code for the past 8 years. 
 					My expertise spans across web and mobile development, and I thrive in collaborative environments
 				</p>
-				<img src="/images/profile-img.jpg" className="w-120 my-2" />
+				<img src="/images/profile-img.jpg" className="w-120 my-2 shadow-lg/80" />
 			</motion.div>
 		</>
 	);
