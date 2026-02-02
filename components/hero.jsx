@@ -21,7 +21,7 @@ const Hero = () => {
           <h2 className="text-5xl w-fit font-inria font-bold italic md:text-5xl lg:text-6xl text-gray-800 mb-7">Hi there,</h2>
           <h2 className="text-3xl font-inria font-bold italic md:text-4xl lg:text-5xl  bg-lightred rounded-r-3xl w-fit p-2 pr-5 mb-5">I am Dangana Joshua</h2>
           <h2 className="text-xl font-inria font-bold italic md:text-2xl text-gray-800 bg-[#D9D9D9] rounded-r-3xl w-fit p-2 pr-5 mb-5">Full-Stack Web Developer</h2>
-          <p className="text-lg font-inria leading-11 italic md:text-2xl text-gray-800 mb-7 lg:text-3xl">I build fast modern and scalable web applications usings Laravel, Nodejs, and React.</p>
+          <p className="text-xl font-inria leading-11 italic md:text-2xl text-gray-800 mb-7 lg:text-3xl">I build fast modern and scalable web applications usings Laravel, Nodejs, and React.</p>
           <div className="flex mb-17 justify-center md:justify-start">
             <motion.a
               whileHover={{ scale: 1.05 }}
