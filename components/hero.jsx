@@ -27,7 +27,7 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="#projects"
-              className="font-inria text-white px-4 py-2  text-md md:text-lg rounded-lg bg-[#282828] mr-7"
+              className="font-inria text-white px-4 py-3  text-md md:text-lg rounded-lg bg-[#282828] mr-7"
             >
               View my work
             </motion.a>
@@ -35,7 +35,7 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="#contact"
-              className="font-inria text-white px-4  py-2 text-md md:text-lg rounded-lg bg-[#737373]"
+              className="font-inria text-white px-4 py-3 text-md md:text-lg rounded-lg bg-[#737373]"
             >
               Contact me
             </motion.a>
@@ -98,7 +98,7 @@ const Hero = () => {
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
               src="/images/hero-image.jpg"
-              className=" w-full h-full rounded-full object-cover"
+              className=" w-full h-full rounded-full object-cover shadow-md/50"
             />
           </div>
         </motion.div>
