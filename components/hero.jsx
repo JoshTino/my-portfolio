@@ -10,7 +10,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex flex-col-reverse items-center md:flex-row md:justify-around md:w-11/12 gap-y-4 gap-x-7 m-auto p-4 my-7 lg:my-10"
+        className="flex flex-col-reverse items-center m-auto p-4 mt-18 mb-7 md:flex-row md:justify-around md:w-11/12 md:mt-30 gap-y-4 gap-x-7"
       >
         
         <motion.div
@@ -40,7 +40,7 @@ const Hero = () => {
               Contact me
             </motion.a>
           </div>
-          <div className="flex justify-center gap-13 lg:justify-start">
+          <div className="flex justify-center gap-10 md:gap-13 lg:justify-start">
               <motion.a
                 whileHover={{ scale: 1.2, y: -4 }}
                 href="https://www.linkedin.com/in/joshua-dangana-a68a75312/"
@@ -95,7 +95,7 @@ const Hero = () => {
           <div className="size-84 md:size-75 lg:size-130 self-end">
             <motion.img
               initial={{ scale: 0.9 }}
-              animate={{ scale: 1 }}
+              whileInView={{ scale: 1 }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
               src="/images/hero-image.jpg"
               className=" w-full h-full rounded-full object-cover"
