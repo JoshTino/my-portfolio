@@ -1,9 +1,17 @@
+import { motion } from "framer-motion";
 
 const About = () => {
 
 	return(
 		<>
-			<div className="flex flex-col m-auto mb-5 p-4 items-center" id="about">
+			<motion.div
+        className="flex flex-col m-auto mb-5 p-4 items-center"
+        id="about"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
 	
 				<h2 className="font-inria font-bold text-3xl text-gray-800 my-2 border-b-3 w-70 text-center p-2 border-gray-400">About</h2>
 				<p className="text-center text-gray-800 font-inria leading-10 text-base font-light md:w-180 md:my-4 lg:w-230">
@@ -12,9 +20,10 @@ const About = () => {
 					My expertise spans across web and mobile development, and I thrive in collaborative environments
 				</p>
 				<img src="/images/profile-img.jpg" className="w-120 my-2" />
-			</div>
+			</motion.div>
 		</>
 	);
 
 }
+
 export default About;
