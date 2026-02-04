@@ -19,7 +19,7 @@ const Hero = () => {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
         >
           <h2 className="text-5xl w-fit font-inria font-bold italic md:text-5xl lg:text-6xl text-gray-800 mb-7">Hi there,</h2>
-          <h2 className="text-[31.5px] font-inria font-bold italic md:text-4xl lg:text-5xl shadow-xl shadow-gray-400 bg-red-400 rounded-r-3xl w-fit p-1 pr-5 mb-5">I am Dangana Joshua</h2>
+          <h2 className="text-[31.5px] font-inria font-bold italic md:text-4xl lg:text-5xl shadow-xl shadow-gray-400 bg-red-400/80 rounded-r-3xl w-fit p-1 pr-5 mb-5">I am Dangana Joshua</h2>
           <h2 className="text-xl font-inria font-bold italic md:text-2xl text-gray-800 shadow-xl shadow-gray-500 bg-gray-200 rounded-r-3xl w-fit p-2 pr-5 mb-5">Full-Stack Web Developer</h2>
           <p className="text-xl font-inria leading-11 italic md:text-2xl text-gray-800 mb-7 lg:text-3xl">I build fast modern and scalable web applications usings Laravel, Nodejs, and React.</p>
           <div className="flex mb-17 justify-center md:justify-start">
@@ -27,7 +27,7 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="#projects"
-              className="font-inria text-white px-4 py-3  text-md md:text-lg rounded-lg bg-[#282828] mr-7"
+              className="font-inria text-white px-4 py-3  text-md md:text-lg rounded-lg bg-green-800 mr-7"
             >
               View my work
             </motion.a>
