@@ -36,9 +36,9 @@ const Skills = () => {
 
 					<div className="">
 						<div className="flex justify-between px-1 my-1 md:my-2">
-							<span className="font-inria text-xs text-gray-800 font-bold">TAILWINDCSS</span><span className="font-inria font-bold text-xs text-gray-800">45%</span>
+							<span className="font-inria text-xs text-gray-800 font-bold">TAILWINDCSS</span><span className="font-inria font-bold text-xs text-gray-800">85%</span>
 						</div>
-						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[45%] p-[0.2rem] rounded-full"></div></div>
+						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[85%] p-[0.2rem] rounded-full"></div></div>
 					</div>
 
 					<div className="">
@@ -50,23 +50,23 @@ const Skills = () => {
 
 					<div className="">
 						<div className="flex justify-between px-1 my-1 md:my-2">
-							<span className="font-inria text-xs text-gray-800 font-bold">NODE JS</span><span className="font-inria font-bold text-xs text-gray-800">75%</span>
+							<span className="font-inria text-xs text-gray-800 font-bold">NODE JS</span><span className="font-inria font-bold text-xs text-gray-800">90%</span>
 						</div>
-						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[75%] p-[0.2rem] rounded-full"></div></div>
+						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[90%] p-[0.2rem] rounded-full"></div></div>
 					</div>
 
 					<div className="">
 						<div className="flex justify-between px-1 my-1 md:my-2">
-							<span className="font-inria text-xs text-gray-800 font-bold">EXPRESS JS</span><span className="font-inria font-bold text-xs text-gray-800">70%</span>
+							<span className="font-inria text-xs text-gray-800 font-bold">EXPRESS JS</span><span className="font-inria font-bold text-xs text-gray-800">95%</span>
 						</div>
-						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[70%] p-[0.2rem] rounded-full"></div></div>
+						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[95%] p-[0.2rem] rounded-full"></div></div>
 					</div>
 
 					<div className="">
 						<div className="flex justify-between px-1 my-1 md:my-2">
-							<span className="font-inria text-xs text-gray-800 font-bold">REACT JS</span><span className="font-inria font-bold text-xs text-gray-800">60%</span>
+							<span className="font-inria text-xs text-gray-800 font-bold">REACT JS</span><span className="font-inria font-bold text-xs text-gray-800">85%</span>
 						</div>
-						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[60%] p-[0.2rem] rounded-full"></div></div>
+						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[85%] p-[0.2rem] rounded-full"></div></div>
 					</div>
 
 					<div className="">
@@ -78,9 +78,9 @@ const Skills = () => {
 
 					<div className="">
 						<div className="flex justify-between px-1 my-1 md:my-2">
-							<span className="font-inria text-xs text-gray-800 font-bold">LARAVEL</span><span className="font-inria font-bold text-xs text-gray-800">70%</span>
+							<span className="font-inria text-xs text-gray-800 font-bold">LARAVEL</span><span className="font-inria font-bold text-xs text-gray-800">75%</span>
 						</div>
-						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[70%] p-[0.2rem] rounded-full"></div></div>
+						<div className="bg-[#D9D9D9] rounded-full"><div className="bg-blue-600 w-[75%] p-[0.2rem] rounded-full"></div></div>
 					</div>
 				</div>
 
